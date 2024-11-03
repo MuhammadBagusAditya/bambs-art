@@ -7,8 +7,18 @@
 
 <section id="products" class="bg-slate-100 py-8">
 	<div class="container">
-		<h2 class="mb-4 text-center text-2xl font-bold text-slate-900">Contoh Produk Kami</h2>
-		<Carousel.Root opts={{ loop: true, duration: 10000 }} plugins={[Autoplay({ delay: 0 })]}>
+		<header class="mb-4">
+			<h2 class="text-center text-2xl font-bold text-slate-900">Contoh Produk Kami</h2>
+			<h5 class="text-center text-slate-800">*Harga tidak termasuk figura dan ongkir</h5>
+		</header>
+
+		<Carousel.Root
+			opts={{
+				loop: true,
+				duration: 50
+			}}
+			plugins={[Autoplay({ delay: 4000, playOnInit: true })]}
+		>
 			<Carousel.Content>
 				{#each products as product}
 					<Carousel.Item class="md:basis-1/2 lg:basis-1/3">

@@ -5,16 +5,16 @@
 </script>
 
 <section
-	class="relative min-h-[100vh] w-full overflow-hidden after:absolute after:left-0 after:top-0 after:z-[0] after:h-full after:w-full after:bg-black/70"
+	class="relative min-h-[100dvh] w-full overflow-hidden after:absolute after:left-0 after:top-0 after:z-[0] after:h-full after:w-full after:bg-black/70"
 >
 	<img
 		src="/banner.jpg"
 		alt="banner"
-		class="absolute left-0 top-0 z-[-1] h-[100vh] w-full object-cover object-center"
+		class="absolute left-0 top-0 z-[-1] h-[100dvh] w-full object-cover object-center"
 		role="banner"
 	/>
 
-	<div class="relative z-[1] flex h-[100vh] flex-col items-center justify-center px-4">
+	<div class="relative z-[1] flex h-[100dvh] flex-col items-center justify-center px-4">
 		<h1 class="mb-4 text-4xl font-bold uppercase text-primary md:text-6xl">
 			{brand}
 		</h1>
