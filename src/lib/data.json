@@ -1,0 +1,69 @@
+{
+	"brand": "Bamb's Art",
+	"tagline": "<b>Lukisan kustom</b> Dari customer, Oleh customer, dan Untuk customer",
+	"products": [
+		{
+			"title": "gambar 1",
+			"imageSrc": "/banner.jpg",
+			"price": "500000"
+		},
+		{
+			"title": "gambar 2",
+			"imageSrc": "/banner.jpg",
+			"price": "500000"
+		},
+		{
+			"title": "gambar 3",
+			"imageSrc": "/banner.jpg",
+			"price": "500000"
+		},
+		{
+			"title": "gambar 4",
+			"imageSrc": "/banner.jpg",
+			"price": "500000"
+		},
+		{
+			"title": "gambar 5",
+			"imageSrc": "/banner.jpg",
+			"price": "500000"
+		}
+	],
+	"superiorities": [
+		{
+			"title": "Sesuai keinginan customer",
+			"desc": "Pesanan sesuai dengan yang dinginkan dan dipesan oleh customer",
+			"icon": "mdi:palette"
+		},
+		{
+			"title": "Dikerjakan dengan cepat",
+			"desc": "Lukisan dikerjakan dalam waktu yang cepat, sesuai antrian",
+			"icon": "mdi:clock-fast"
+		},
+		{
+			"title": "Harga bisa nego",
+			"desc": "Harga dari lukisan custom didasarkan atas kesepakatan sebelumnya",
+			"icon": "mdi:cash"
+		}
+	],
+	"reviews": [
+		{
+			"name": "Muhammad bagus aditya",
+			"img": "/banner.jpg",
+			"desc": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perferendis, sit blanditiis eos impedit accusamus fugit maxime magni ullam neque similique."
+		},
+		{
+			"name": "Muhammad bagus aditya",
+			"img": "/banner.jpg",
+			"desc": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perferendis, sit blanditiis eos impedit accusamus fugit maxime magni ullam neque similique."
+		},
+		{
+			"name": "Muhammad bagus aditya",
+			"img": "/banner.jpg",
+			"desc": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perferendis, sit blanditiis eos impedit accusamus fugit maxime magni ullam neque similique."
+		}
+	],
+	"contacts": {
+		"whatsapp": "https://wa.me/6285385893625",
+		"location": "Jl. A.E.Suryani 63 RT 2 RW 3 Bulu, Jepara, Jawa Tengah"
+	}
+}
