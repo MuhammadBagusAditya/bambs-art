@@ -50,7 +50,7 @@
 
 @layer base {
 	* {
-		@apply scroll-m-8 scroll-smooth border-border font-['roboto'];
+		@apply scroll-m-8 scroll-smooth border-border font-['roboto',sans-serif];
 	}
 	body {
 		@apply bg-background text-foreground;

@@ -14,7 +14,7 @@
 						<img
 							src={review.img}
 							alt={`lukisan yang dibeli ${review.name}`}
-							class="mb-4 rounded-lg"
+							class="mb-4 w-full rounded-lg"
 						/>
 
 						<h3 class="text-center text-xl font-semibold text-primary-foreground">{review.name}</h3>

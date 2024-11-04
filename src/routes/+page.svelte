@@ -50,7 +50,7 @@
 {#if scrollY + winSize.screenY < winSize.totalHeight - 100}
 	<a
 		href={contacts.whatsapp}
-		class="fixed bottom-6 right-6 z-[5] cursor-pointer rounded-full bg-emerald-600 p-2 hover:bg-emerald-700 md:p-4"
+		class="fixed bottom-6 right-6 z-[5] cursor-pointer rounded-full bg-emerald-600 p-3 hover:bg-emerald-700 md:p-4"
 		target="_blank"
 		transition:fade
 	>
