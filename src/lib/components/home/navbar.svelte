@@ -1,6 +1,6 @@
 <script lang="ts">
 	import * as Sheet from '$lib/components/ui/sheet';
-	import { Button } from '$lib/components/ui/button';
+	import Separator from '../ui/separator/separator.svelte';
 	import Icon from '@iconify/svelte';
 	import { cn } from '$lib/utils';
 
@@ -32,17 +32,49 @@
 	</div>
 </nav>
 
-<Sheet.Content>
+<Sheet.Content onOpenAutoFocus={(e) => e.preventDefault()} class="max-w-[20rem]">
 	<Sheet.Header>
 		<Sheet.Title>Menu</Sheet.Title>
 	</Sheet.Header>
 
-	<div class="container flex flex-col items-center gap-3 pb-3">
-		<a href="#home">Beranda</a>
-		<a href="#products">Produk</a>
-		<a href="#superiorities">Keunggulan</a>
+	<Separator class="my-1" />
+
+	<div class="flex flex-col gap-3 pb-3">
+		<a
+			href="#home"
+			class="flex w-full items-center gap-2 rounded-lg bg-transparent px-4 py-2 text-slate-800 transition-all hover:bg-slate-100 active:bg-slate-200"
+		>
+			<Icon icon="mdi:home" class="text-2xl text-slate-700" />
+			Beranda
+		</a>
+		<a
+			href="#products"
+			class="flex w-full items-center gap-2 rounded-lg bg-transparent px-4 py-2 text-slate-800 transition-all hover:bg-slate-100 active:bg-slate-200"
+		>
+			<Icon icon="mdi:package" class="text-2xl text-slate-700" />
+			Produk
+		</a>
+		<a
+			href="#superiorities"
+			class="flex w-full items-center gap-2 rounded-lg bg-transparent px-4 py-2 text-slate-800 transition-all hover:bg-slate-100 active:bg-slate-200"
+		>
+			<Icon icon="mdi:star" class="text-2xl text-slate-700" />
+			Keunggulan
+		</a>
 		<!-- <a href="#gallery">Galeri</a> -->
-		<a href="#reviews">Testimoni</a>
-		<a href="#contacts">Kontak</a>
+		<a
+			href="#reviews"
+			class="flex w-full items-center gap-2 rounded-lg bg-transparent px-4 py-2 text-slate-800 transition-all hover:bg-slate-100 active:bg-slate-200"
+		>
+			<Icon icon="mdi:comment-quote" class="text-2xl text-slate-700" />
+			Testimoni
+		</a>
+		<a
+			href="#contacts"
+			class="flex w-full items-center gap-2 rounded-lg bg-transparent px-4 py-2 text-slate-800 transition-all hover:bg-slate-100 active:bg-slate-200"
+		>
+			<Icon icon="mdi:phone" class="text-2xl text-slate-700" />
+			Kontak
+		</a>
 	</div>
 </Sheet.Content>

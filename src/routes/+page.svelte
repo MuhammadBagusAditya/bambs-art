@@ -33,7 +33,11 @@
 </script>
 
 <svelte:head>
-	<title>Website order lukisan custom - Tunjukkan kreativitasmu</title>
+	<title>Website order lukisan custom - Bamb's Art Jepara</title>
+	<meta
+		name="description"
+		content="Apakah anda ingin menghias galeri anda? Ayo order lukisan kustom sesuai keinginanmu"
+	/>
 </svelte:head>
 
 <SheetRoot controlledOpen={false}>

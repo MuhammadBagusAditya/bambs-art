@@ -2,7 +2,7 @@
 	import { Separator } from '$lib/components/ui/separator';
 </script>
 
-<footer class="bg-primary text-primary-foreground">
+<footer class="bg-slate-800 text-slate-100">
 	<div class="container flex flex-wrap justify-between py-3">
 		<a href="/" class="font-semibold">BAMB'S ART</a>
 

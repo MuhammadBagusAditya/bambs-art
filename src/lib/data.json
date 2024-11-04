@@ -1,31 +1,16 @@
 {
 	"brand": "Bamb's Art",
-	"tagline": "<b>Lukisan kustom</b> Dari customer, Oleh customer, dan Untuk customer",
+	"tagline": "Penuhi galerimu dengan <b>Lukisan kustom</b> impianmu. Ayo pesan sekarang",
 	"products": [
 		{
-			"title": "gambar 1",
-			"imageSrc": "/banner.jpg",
-			"price": "500000"
+			"title": "Lukisan Bunga",
+			"imageSrc": "/products/lukisan-bunga.jpg",
+			"price": "2000000"
 		},
 		{
-			"title": "gambar 2",
-			"imageSrc": "/banner.jpg",
-			"price": "500000"
-		},
-		{
-			"title": "gambar 3",
-			"imageSrc": "/banner.jpg",
-			"price": "500000"
-		},
-		{
-			"title": "gambar 4",
-			"imageSrc": "/banner.jpg",
-			"price": "500000"
-		},
-		{
-			"title": "gambar 5",
-			"imageSrc": "/banner.jpg",
-			"price": "500000"
+			"title": "Lukisan Kota Klasik",
+			"imageSrc": "/products/lukisan-kota-klasik.jpg",
+			"price": "3500000"
 		}
 	],
 	"superiorities": [
