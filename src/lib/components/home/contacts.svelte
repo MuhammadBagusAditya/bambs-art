@@ -11,14 +11,25 @@
 
 		<div class="grid gap-3 lg:grid-cols-[400px,_1fr]">
 			<div class="flex flex-col gap-3">
-				<Button
-					href={contacts.whatsapp}
-					class="w-full bg-emerald-600 text-slate-50 hover:bg-emerald-700"
-					target="_blank"
-				>
-					<Icon icon="mdi:whatsapp" class="text-xl" />
-					Pesan via Whatsapp
-				</Button>
+				<div class="grid sm:grid-cols-2">
+					<a
+						href={contacts.whatsapp}
+						target="_blank"
+						class="flex flex-col items-center gap-2 text-emerald-700"
+					>
+						<Icon icon="mdi:whatsapp" class="text-6xl" />
+						Pesan via Whatsapp
+					</a>
+
+					<a
+						href={contacts.youtube}
+						target="_blank"
+						class="flex flex-col items-center gap-2 text-red-700"
+					>
+						<Icon icon="mdi:youtube" class="text-6xl" />
+						Cek Channel Youtube
+					</a>
+				</div>
 
 				<Separator class="my-3" />
 
@@ -28,15 +39,6 @@
 				</h5>
 
 				<p>{contacts.location}</p>
-
-				<Separator class="my-3" />
-
-				<h5 class="inline-flex items-center gap-2 font-semibold text-red-600">
-					<Icon icon="mdi:youtube" class="text-2xl" />
-					Channel Youtube
-				</h5>
-
-				<a class="" href={contacts.youtube}>{contacts.youtube}</a>
 			</div>
 
 			<div>
