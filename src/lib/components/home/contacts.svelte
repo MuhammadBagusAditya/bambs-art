@@ -22,12 +22,21 @@
 
 				<Separator class="my-3" />
 
-				<h4 class="inline-flex items-center gap-2 font-semibold text-slate-800">
+				<h5 class="inline-flex items-center gap-2 font-semibold text-slate-800">
 					<Icon icon="mdi:map-marker" class="text-2xl" />
 					Alamat
-				</h4>
+				</h5>
 
 				<p>{contacts.location}</p>
+
+				<Separator class="my-3" />
+
+				<h5 class="inline-flex items-center gap-2 font-semibold text-red-600">
+					<Icon icon="mdi:youtube" class="text-2xl" />
+					Channel Youtube
+				</h5>
+
+				<a class="" href={contacts.youtube}>{contacts.youtube}</a>
 			</div>
 
 			<div>

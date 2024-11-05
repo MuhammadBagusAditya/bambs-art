@@ -1,6 +1,6 @@
 {
 	"brand": "Bamb's Art",
-	"tagline": "Penuhi galerimu dengan <b>Lukisan kustom</b> impianmu. Ayo pesan sekarang",
+	"tagline": "Penuhi galerimu dengan <strong>Lukisan kustom</strong> impianmu",
 	"products": [
 		{
 			"title": "Lukisan Bunga",
@@ -11,6 +11,21 @@
 			"title": "Lukisan Kota Klasik",
 			"imageSrc": "/products/lukisan-kota-klasik.jpg",
 			"price": "3500000"
+		},
+		{
+			"title": "Lukisan Mobil",
+			"imageSrc": "/products/lukisan-mobil.jpg",
+			"price": "4500000"
+		},
+		{
+			"title": "Lukisan Bunga Anggrek",
+			"imageSrc": "/products/lukisan-anggrek.jpg",
+			"price": "3500000"
+		},
+		{
+			"title": "Lukisan Burung",
+			"imageSrc": "/products/lukisan-burung.jpg",
+			"price": "1500000"
 		}
 	],
 	"superiorities": [
@@ -49,6 +64,7 @@
 	],
 	"contacts": {
 		"whatsapp": "https://wa.me/6285385893625",
+		"youtube": "https://www.youtube.com/@OmBamb",
 		"location": "Jl. A.E.Suryani 63 RT 2 RW 3 Bulu, Jepara, Jawa Tengah"
 	}
 }
