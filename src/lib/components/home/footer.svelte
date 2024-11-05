@@ -11,23 +11,23 @@
 
 		<div class="grid grid-cols-2 grid-rows-2 flex-wrap gap-3 sm:flex sm:justify-end">
 			<a href="#products" class="inline-flex items-center gap-2">
-				<Icon icon="mdi:package" class="text-2xl" />
+				<Icon icon="mdi:package" class="block text-2xl sm:hidden" />
 				Produk
 			</a>
 
 			<a href="#superiorities" class="inline-flex items-center gap-2">
-				<Icon icon="mdi:star" class="text-2xl" />
+				<Icon icon="mdi:star" class="block text-2xl sm:hidden" />
 				Keunggulan
 			</a>
 
 			<!-- <a href="#gallery">Galeri</a> -->
 			<a href="#reviews" class="inline-flex items-center gap-2">
-				<Icon icon="mdi:comment-quote" class="text-2xl" />
+				<Icon icon="mdi:comment-quote" class="block text-2xl sm:hidden" />
 				Testimoni
 			</a>
 
 			<a href="#contacts" class="inline-flex items-center gap-2">
-				<Icon icon="mdi:phone" class="text-2xl" />
+				<Icon icon="mdi:phone" class="block text-2xl sm:hidden" />
 				Kontak
 			</a>
 		</div>
