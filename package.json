@@ -38,7 +38,6 @@
 	"dependencies": {
 		"@iconify/svelte": "^4.0.2",
 		"@sveltejs/adapter-vercel": "^5.4.6",
-		"@vercel/analytics": "^1.4.1",
 		"embla-carousel-autoplay": "^8.3.1"
 	}
 }
